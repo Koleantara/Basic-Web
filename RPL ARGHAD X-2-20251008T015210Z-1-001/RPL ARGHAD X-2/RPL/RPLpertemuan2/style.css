@@ -1,0 +1,31 @@
+p{
+    color: gold;
+    font-size: 12px
+    font-weight 600;
+    line-height: 1;
+}
+body{
+    font-family: 'Poppins';
+    background-color: dodgerblue;
+    margin: 90px 0px 0px 90px;
+}
+.Player{
+    color:fuchsia;
+    background-color: olive;
+    margin-top: 50px;
+    
+}
+.NPC{
+    color:lime;
+    background-color: purple;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.Dev{
+    color:aqua;
+    background-color: maroon;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.0;
+}

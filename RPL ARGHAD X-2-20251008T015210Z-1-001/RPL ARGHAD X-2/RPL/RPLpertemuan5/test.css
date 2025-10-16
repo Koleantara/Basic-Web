@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+body{
+    background-color: #f0f0f0;
+    padding: 40px;
+}
+.filter_btn{
+    background-color: none;
+    color: #555;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 10px;
+    border: 1px solid #555;
+    text-align: center;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.Title{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.filter_button{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter_btn.active,.filter_btn:hover{
+    background-color: #ff6b00;
+    color: white;
+    border-color: #ff6b00;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.gambar{
+    width: 30%;
+    border-radius: 12px;
+    transform: scale(1);
+    transition: all 0.3s ease;
+
+}
+.gambar img{
+    width: 100%;
+    height: 100%;
+}
+.gambar:hover{
+    transform: scale(1.05);
+}

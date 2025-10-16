@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+    text-decoration: none;
+}
+body{
+    background-color: #f0f0f0;
+}
+.container{
+    width: 80%;
+    background-color: f0f0f0;
+    margin: auto;
+    padding: 20px;
+
+}
+.menu ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+
+}
+.contac{
+    border-radius: 5px ;
+    background-color: #F1A104;
+    padding: 10px 15px;
+    margin: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    padding: 0px 20px 0px 20px ;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
